@@ -22,7 +22,7 @@ public class UVicTest {
     @BeforeEach
     public void setUp() {
         // Chrome
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         browser = new ChromeDriver();
 
         // Firefox
