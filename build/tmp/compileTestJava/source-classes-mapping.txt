@@ -2,5 +2,19 @@ GoogleTest.java
  GoogleTest
 UVicTest.java
  UVicTest
-TestCasesA3.java
- TestCasesA3
+MyInfo/MyInfoPhoto.java
+ MyInfo.MyInfoPhoto
+forumFunctionality/forumFunctionalityTest.java
+ forumFunctionality.forumFunctionalityTest
+AttendancePunchInOut/AttendancePunchInOut.java
+ AttendancePunchInOut.AttendancePunchInOut
+MyInfo/MyInfoEdit.java
+ MyInfo.MyInfoEdit
+Timesheet/TimeSheet.java
+ Timesheet.TimeSheet
+JobCreation/JobCreation.java
+ JobCreation.JobCreation
+LoginLeave/LoginLeave.java
+ LoginLeave.LoginLeave
+Qualifications.java
+ Qualifications

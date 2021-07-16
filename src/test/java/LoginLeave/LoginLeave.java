@@ -1,3 +1,5 @@
+package LoginLeave;
+
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -16,7 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestCasesA3 {
+public class LoginLeave {
 
     WebDriver browser;
 
@@ -387,7 +389,7 @@ public class TestCasesA3 {
         assertEquals("Instruction Sent !", browser.findElement(By.xpath("//*[@id=\"content\"]/div[1]/div[2]/h1")).getText());
     }
 
-    
+
 
     @AfterEach
     public void cleanUp() {
