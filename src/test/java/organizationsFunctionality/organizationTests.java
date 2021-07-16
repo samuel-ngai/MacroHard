@@ -132,7 +132,6 @@ public class organizationTests {
                 locationName = element.getText();
             }
         }
-
         assertEquals(locationName, "UVic Victoria Canada 6041231234 0");
         deleteLocation("UVic Victoria Canada 6041231234 0");
     }
@@ -155,6 +154,7 @@ public class organizationTests {
                 element.findElement(By.name("chkSelectRow[]")).click();
             }
         }
+        //Delete location
         browser.findElement(By.id("btnDelete")).click();
         browser.findElement(By.id("dialogDeleteBtn")).click();
 
@@ -176,6 +176,7 @@ public class organizationTests {
         addLocation();  //Adding test location
         wait(500);
 
+        //Search for UVic by name
         WebElement searchBox = browser.findElement(By.name("searchLocation[name]"));
         clickClearSendkeys(searchBox, "UVic");
         browser.findElement(By.id("btnSearch")).click();
@@ -202,7 +203,7 @@ public class organizationTests {
         addLocation();  //Adding test location
         wait(500);
 
-        //Search for locations in Victoria
+        //Search for Victoria locations
         WebElement searchBox = browser.findElement(By.name("searchLocation[city]"));
         clickClearSendkeys(searchBox, "Victoria");
         browser.findElement(By.id("btnSearch")).click();
@@ -286,12 +287,12 @@ public class organizationTests {
     }
 
     public void logIn() {
-        browser.get("https://opensource-demo.orangehrmlive.com/");              //Find website
-        WebElement username = browser.findElement(By.name("txtUsername"));      //Find username text box
-        username.sendKeys("Admin");                                  //Enter username
-        WebElement password = browser.findElement(By.name("txtPassword"));      //Find password text box
-        password.sendKeys("admin123");                               //Enter password
-        WebElement Login = browser.findElement(By.name("Submit"));              //Find submit button
+        browser.get("https://opensource-demo.orangehrmlive.com/");
+        WebElement username = browser.findElement(By.name("txtUsername"));
+        username.sendKeys("Admin");
+        WebElement password = browser.findElement(By.name("txtPassword"));
+        password.sendKeys("admin123");
+        WebElement Login = browser.findElement(By.name("Submit"));
         Login.click();
     }
 
@@ -302,7 +303,7 @@ public class organizationTests {
 
     public void clickClearSendkeys(WebElement webElement, String string) {
         webElement.click();
-        webElement.clear();            //Clears existing text in object
+        webElement.clear();            //Clears existing text in webElement
         webElement.sendKeys(string);
     }
 
@@ -338,7 +339,6 @@ public class organizationTests {
     }
 
     public void deleteLocation(String name) {
-
         //Find all elements in location table
         List<WebElement> table = browser.findElements(By.tagName("tr"));
         for(WebElement element:table) {
