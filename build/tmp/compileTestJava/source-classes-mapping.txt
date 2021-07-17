@@ -4,8 +4,8 @@ UVicTest.java
  UVicTest
 MyInfo/MyInfoPhoto.java
  MyInfo.MyInfoPhoto
-forumFunctionality/forumFunctionalityTest.java
- forumFunctionality.forumFunctionalityTest
+LoginLeave/LoginLeave.java
+ LoginLeave.LoginLeave
 AttendancePunchInOut/AttendancePunchInOut.java
  AttendancePunchInOut.AttendancePunchInOut
 MyInfo/MyInfoEdit.java
@@ -14,7 +14,9 @@ Timesheet/TimeSheet.java
  Timesheet.TimeSheet
 JobCreation/JobCreation.java
  JobCreation.JobCreation
-LoginLeave/LoginLeave.java
- LoginLeave.LoginLeave
-Qualifications.java
- Qualifications
+forumFunctionality/forumFunctionalityTest.java
+ forumFunctionality.forumFunctionalityTest
+Qualifications/Qualifications.java
+ Qualifications.Qualifications
+organizationsFunctionality/organizationTests.java
+ organizationsFunctionality.organizationTests
