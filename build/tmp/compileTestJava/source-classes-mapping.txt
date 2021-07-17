@@ -1,22 +1,40 @@
 GoogleTest.java
  GoogleTest
+Timesheet/TimeSheet.java
+ Timesheet.TimeSheet
+UserManagement/UserAdditionDeletion.java
+ UserAdditionDeletion.UserAdditionDeletion
 UVicTest.java
  UVicTest
 MyInfo/MyInfoPhoto.java
  MyInfo.MyInfoPhoto
+<<<<<<< HEAD
 LoginLeave/LoginLeave.java
  LoginLeave.LoginLeave
+=======
+organizationsFunctionality/organizationTests.java
+ organizationsFunctionality.organizationTests
+forumFunctionality/forumFunctionalityTest.java
+ forumFunctionality.forumFunctionalityTest
+>>>>>>> 4f621fc73a8adba99e8c4e9eb24d4bd3efb249dd
 AttendancePunchInOut/AttendancePunchInOut.java
  AttendancePunchInOut.AttendancePunchInOut
-MyInfo/MyInfoEdit.java
- MyInfo.MyInfoEdit
-Timesheet/TimeSheet.java
- Timesheet.TimeSheet
+Qualifications/Qualifications.java
+ Qualifications.Qualifications
 JobCreation/JobCreation.java
  JobCreation.JobCreation
+<<<<<<< HEAD
 forumFunctionality/forumFunctionalityTest.java
  forumFunctionality.forumFunctionalityTest
 Qualifications/Qualifications.java
  Qualifications.Qualifications
 organizationsFunctionality/organizationTests.java
  organizationsFunctionality.organizationTests
+=======
+LoginLeave/LoginLeave.java
+ LoginLeave.LoginLeave
+ReportFunctionality/ReportFunctionality.java
+ ReportFunctionality
+MyInfo/MyInfoEdit.java
+ MyInfo.MyInfoEdit
+>>>>>>> 4f621fc73a8adba99e8c4e9eb24d4bd3efb249dd
